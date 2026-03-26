@@ -1,0 +1,340 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Shopping Website</title>
+
+        <!-- Includes link for 'Custom CSS file', 'bootstrap', 'font-awesome' & 'Poppins Font' -->       
+       
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+            crossorigin="anonymous"
+        >
+        <link rel="stylesheet" href="shopping.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>      
+
+        <div class="container-fluid">
+
+            <!-- NAVBAR START -->
+
+            <nav class="navbar navbar-expand-lg fixed-top">
+                <div class="container-fluid">
+                    <a class="navbar-brand ps-5" href="#">
+                        <img class="me-2" src="images/cib_f-secure.svg" alt="F-Secure Icon">FASHION
+                    </a>
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar"
+                        aria-controls="offcanvasNavbar"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div
+                        class="offcanvas offcanvas-end"
+                        tabindex="-1"
+                        id="offcanvasNavbar"
+                        aria-labelledby="offcanvasNavbarLabel"
+                    >
+                        <div class="offcanvas-header">
+                            <button
+                                type="button"
+                                class="btn-close mx-auto"
+                                data-bs-dismiss="offcanvas"
+                                aria-label="Close"
+                            ></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 text-center">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">
+                                        CATALOUGE
+                                    </a
+                  >
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">
+                                        FASHION
+                                    </a
+                  >
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">FAVOURITE</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">LIFESTYLE</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link sign-up" href="#">SIGNUP</a>
+                                </li>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+
+            <!-- NAVBAR END -->  
+             
+
+            <!-- HERO-SECTION START -->
+            
+                <div class="row mt-5 pt-5">
+                    <div class="col-10 offset-1 hero-section pb-1">
+                        <div class="row">
+                            <div class="col-lg-5 order-lg-1 order-2 d-flex flex-column justify-content-center align-items-center text-center">
+                                <h1>
+                                    <span>LET'S</span>
+                                    <span>EXPLORE</span>
+                                    <span id="unique">UNIQUE</span>
+                                    <span>CLOTHES</span>
+                                </h1>
+                                <h3>Live for influential and innovative fashion!</h3>
+                                <button class="btn mt-lg-3">SHOP NOW</button>
+                            </div>
+                            <div class="col-lg-7 order-lg-2 order-1">
+                                <img class="hero-img" src="./images/hero1.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            <!-- HERO-SECTION END -->
+             
+            
+            <!-- BRANDS START -->
+
+                <div class="row brands g-0 text-center">
+                    <div class="col-6 col-lg-2 col-md-4">
+                        <img class="logos" src="./images/H&M.png" alt="">
+                    </div>
+                    <div class="col-6 col-lg-2 col-md-4">
+                        <img class="logos" src="./images/obey.png" alt="">
+                    </div>
+                    <div class="col-6 col-lg-2 col-md-4">
+                        <img class="logos" src="./images/shopify.png" alt="">
+                    </div>
+                    <div class="col-6 col-lg-2 col-md-4">
+                        <img class="logos" src="./images/lacoste.png" alt="">
+                    </div>
+                    <div class="col-6 col-lg-2 col-md-4">
+                        <img class="logos" src="./images/levi.png" alt="">
+                    </div>
+                    <div class="col-6 col-lg-2 col-md-4">
+                        <img class="logos" src="./images/amazon.png" alt="">
+                    </div>
+                </div>
+
+            <!-- BRANDS END -->
+
+
+            <!-- NEW-ARRIVALS START -->   
+
+                <div class="row new-arrivals my-5">
+                    <div class="col-10 offset-1">
+                        <h1>NEW ARRIVALS</h1>
+                        <div class="d-flex justify-content-center flex-wrap gap-5">
+                            <div class="card" style="width: 19rem;">
+                                <img
+                                    class="new-arrival-img"
+                                    src="./images/newArrivals1.png"
+                                    class="card-img-top"
+                                    alt="..."
+                                >
+                                <div class="card-body">
+                                    <h5 class="card-title">Hoodies & Sweatshirt</h5>
+                                    <p class="card-text d-flex">Explore Now! <i class="fa-solid fa-arrow-right ms-auto"></i></p>
+                                </div>
+                            </div>
+                            <div class="card" style="width: 19rem;">
+                                <img
+                                    class="new-arrival-img"
+                                    src="./images/newArrivals2.png"
+                                    class="card-img-top"
+                                    alt="..."
+                                >
+                                <div class="card-body">
+                                    <h5 class="card-title">Coats & Parkas</h5>
+                                    <p class="card-text d-flex">Explore Now! <i class="fa-solid fa-arrow-right ms-auto"></i></p>
+                                </div>
+                            </div>
+                            <div class="card" style="width: 19rem;">
+                                <img
+                                    class="new-arrival-img"
+                                    src="./images/newArrivals3.png"
+                                    class="card-img-top"
+                                    alt="..."
+                                >
+                                <div class="card-body">
+                                    <h5 class="card-title">Tees & T-Shirt</h5>
+                                    <p class="card-text d-flex">Explore Now! <i class="fa-solid fa-arrow-right ms-auto"></i></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            <!-- NEW-ARRIVALS END -->        
+             
+            
+            <!-- HERO-SECTION 2 START -->  
+
+                <div class="row g-0 hero-section-2 my-5">
+                    <div class="col-lg-5 offset-lg-1">
+                        <img class="hero-img-2" src="./images/hero2.png" alt="">
+                    </div>
+                    <div class="col-lg-5 pt-4 pt-lg-0 hero-message d-flex flex-column justify-content-center align-items-center text-center pb-3 pb-lg-0">
+                        <h1><span id="payday">PAYDAY</span> SALE NOW</h1>
+                        <h5>
+                            Spend minimal $100 get 30% off voucher code for your next purchase
+                        </h5>
+                        <h4>1 June - 10 June 2021</h4>
+                        <h5>*Terms & Conditions apply</h5>
+                        <button class="btn btn-secondary mt-lg-3">SHOP NOW</button>
+                    </div>
+                </div>
+
+            <!-- HERO-SECTION 2 END -->  
+
+
+            <!-- FAVOURITE-SECTION START -->  
+
+                <div class="row favourite-section my-5">
+                    <div class="col-10 offset-1">
+                        <h1>YOUNG'S FAVOURITE</h1>
+                        <div class="d-flex justify-content-center flex-wrap gap-5 mt-4">
+                            <div class="card" style="width: 22rem;">
+                                <img
+                                    class="young-favourite-img"
+                                    src="./images/youngFavourite1.png"
+                                    class="card-img-top"
+                                    alt="..."
+                                >
+                                <div class="card-body">
+                                    <h5 class="card-title">Trending on instagram</h5>
+                                    <p class="card-text d-flex">Buy Now! <i class="fa-solid fa-arrow-right ms-auto"></i></p>
+                                </div>
+                            </div>
+                            <div class="card" style="width: 22rem;">
+                                <img
+                                    class="young-favourite-img"
+                                    src="./images/youngFavourite2.png"
+                                    class="card-img-top"
+                                    alt="..."
+                                >
+                                <div class="card-body">
+                                    <h5 class="card-title">All Under $40</h5>
+                                    <p class="card-text d-flex">Buy Now! <i class="fa-solid fa-arrow-right ms-auto"></i></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            <!-- FAVOURITE-SECTION END -->  
+
+
+            <!-- DOWNLOAD START -->  
+
+                <div class="row download mb-5">
+                    <div class="col-md-5 offset-md-1 order-2 order-md-1 d-flex flex-column justify-content-center align-items-center text-center">
+                        <div class="">
+                            <h1>DOWNLOAD APP & GET THE VOUCHER</h1>
+                            <p>Get 30% off for first transaction using Rondovision mobile app for now.</p>
+                        </div>
+                        <div class="row g-0">
+                            <div class="col-6">
+                                <img class="download-on" src="./images/appStore.png" alt="">
+                            </div>
+                            <div class="col-6">
+                                <img class="download-on" src="./images/googlePlay.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5 offset-1 order-1 order-md-2">
+                        <img class="mobile-img" src="./images/mobile.png" alt="">
+                    </div>
+                </div>
+
+            <!-- DOWNLOAD END --> 
+
+
+            <!-- PROMOTION START --> 
+
+                <div class="row promotion text-center pt-5">
+                    <div class="col-12">
+                        <h1>JOIN SHOPPING COMMUNITY TO GET MONTHLY PROMO</h1>
+                        <h4>Type your email down below and be young wild generation</h4>
+                        <div class="input-group mt-3 d-inline-flex">
+                            <input
+                                type="text"
+                                class="form-control"
+                                placeholder="Add your email here"
+                                aria-label="SEND"
+                            >
+                            <button class="btn" type="button" id="button-addon2">SEND</button>
+                        </div>
+                    </div>
+                </div>
+
+            <!-- PROMOTION END --> 
+
+
+            <!-- FOOTER START --> 
+
+                <div class="row footer">
+                    <div class="col-md-3 offset-md-1 text-center">
+                        <h1>FASHION</h1>
+                        <h5 class="mb-4 lh-base">Complete your style with awesome clothes from us.</h5>
+                        <span class="icon d-inline-block">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </span>
+                        <span class="icon d-inline-block">
+                            <i class="fa-brands fa-instagram"></i>
+                        </span>
+                        <span class="icon d-inline-block">
+                            <i class="fa-brands fa-twitter"></i>
+                        </span>
+                        <span class="icon d-inline-block">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </span>
+                    </div>
+                    <div class="col-md-6 offset-md-2 mt-4 mt-md-0 d-flex justify-content-center lh-lg">
+                        <ul>
+                            <li id="li1">Company</li>
+                            <li>About</li>
+                            <li>Contact us</li>
+                            <li>Support</li>
+                            <li>Careers</li>
+                        </ul>
+                        <ul>
+                            <li id="li1">Quick Link</li>
+                            <li>Share Location</li>
+                            <li>Orders Tracking</li>
+                            <li>Size Guide</li>
+                            <li>FAQs</li>
+                        </ul>
+                        <ul>
+                            <li id="li1">Legal</li>
+                            <li>Terms & conditions</li>
+                            <li>Privacy Policy</li>
+                        </ul>
+                    </div>
+                </div>
+
+            <!-- FOOTER END --> 
+
+            </div>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+        </body>
+    </html>

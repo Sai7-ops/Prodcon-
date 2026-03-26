@@ -1,0 +1,452 @@
+body{
+    background-color: #F5E79D;
+
+}
+
+.container-fluid{
+    background-color: #FFFFFF;
+    width: 90% !important;
+}
+
+
+
+/* NAVBAR START */
+
+.navbar .container-fluid{
+    padding: 12px;
+}
+
+.nav{
+    font-family: 'Poppins';
+
+}
+
+.navbar-brand{
+    font-weight: 900;
+
+}
+
+.navbar-brand img{
+    height: 16.5px;
+    width: 16.5px;
+}
+
+.nav-item{
+    color: #242323;
+    font-weight: 500;
+}
+
+.sign-up{
+    background-color: rgba(0, 0, 0, 0.942);
+    color: white;
+    border-radius: 7px;
+}
+
+.sign-up:hover{
+    background-color: rgba(0, 0, 0, 0.782);
+    color: white;
+}
+
+.offcanvas {
+    transition: transform 0.4s linear !important;
+    background-color: rgba(229, 199, 67, 0.85) !important; 
+    backdrop-filter: blur(5px); 
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.offcanvas-backdrop.show {
+    opacity: 1 !important; 
+    background-color: rgba(0, 0, 0, 0.4) !important; 
+    backdrop-filter: blur(4px) saturate(120%);
+}
+
+/* NAVBAR END */
+
+
+
+/* HERO-SECTION START */
+
+.hero-section{
+    background-color: #F4F6F5;
+    font-family: 'Poppins';
+}
+
+.hero-img{
+    height: 360px;
+    width: 100%;
+    object-fit: cover;
+}
+
+@media (min-width: 992px) {
+  .hero-img {
+    height: 370px;
+  }
+}
+
+.hero-img-2{
+    height: 360px;
+    width: 100%;
+    object-fit: cover;
+}
+
+@media (min-width: 992px) {
+  .hero-img-2 {
+    height: 370px;
+  }
+}
+
+@media (min-width: 768px) {
+  .hero-img-2 {
+    height: 450px;
+  }
+}
+
+.hero-section h1{
+    font-weight: 900;
+    font-size: 46px;
+    color: black;
+}
+
+.hero-section #unique{
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+    padding: 0 5px;    
+
+}
+
+.hero-section #unique::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #EBD96B; 
+    transform: rotate(-2deg); 
+    z-index: -1;
+}
+
+.hero-section h3{
+    font-weight: 400;
+    color: #191818;
+}
+
+.hero-section button{
+    background-color: black;
+    color: white;
+}
+
+.hero-section button:hover{
+    background-color: rgba(0,0,0,0.8);
+    color: white;
+}
+
+/* HERO-SECTION END */
+
+
+
+/* BRANDS START */
+
+.brands{
+    background-color: #E8D26C;
+    height: 300px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+@media (min-width: 768px) {
+  .brands {
+    height: 200px;
+  }
+}
+
+@media (min-width: 992px) {
+  .brands {
+    height: 84px;
+  }
+}
+
+.logos{
+    width: 60%;
+    height: 80px;
+
+}
+
+/* BRANDS END */
+
+
+
+/* NEW ARRIVALS START */
+
+.new-arrivals{
+    margin-bottom: 30px;
+    font-family: 'Poppins';
+    color: black;
+}
+.new-arrivals h1{
+    margin-bottom: 30px;
+    font-weight: 900;
+}
+.new-arrivals h5,p{
+    font-weight: 500;
+}
+.new-arrivals p{
+    color: #7F7F7F;
+}
+
+.new-arrival-img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+/* NEW ARRIVALS END */
+
+
+
+/* HERO-SECTION 2 START */
+
+.hero-message {
+    background: linear-gradient(
+        to bottom, 
+        #E0C340, #DFC23E, #E1C441, #E3C743, 
+        #E4C542, #E6C744, #E7C845, #E5C643, 
+        #E6C945, #E3C743, #E9CA48, #EDCE49, 
+        #F0D44C, #F4D84F, #F6DA52, #F7DB53, 
+        #F9DD55, #F9DF56, #FAE157, #F9DF56
+        );
+    }
+
+    .hero-section-2{
+    margin-bottom: 30px;
+    font-family: 'Poppins';
+}
+
+.hero-section-2 h1{
+    font-weight: 900;   
+    font-size: 40px;
+}
+
+.hero-section-2 h5{
+    font-weight: 400;
+}
+
+.hero-section-2 h4{
+    font-weight: 700;
+}
+
+.hero-section-2 button{
+    background-color: black;
+    color: white;
+}
+
+.hero-section-2 button:hover{
+    background-color: rgba(0,0,0,0.9);
+    color: white;
+}
+
+#payday{
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+    padding: 0 5px;    
+    
+}
+
+#payday::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white; 
+    transform: rotate(-2deg); 
+    z-index: -1;
+}
+
+/* HERO-SECTION 2 END */
+
+
+
+/* FAVOURITES-SECTION START */
+
+.favourite-section{
+    margin-bottom: 50px;
+    font-family: 'Poppins';
+}
+
+.favourite-section h1{
+    font-weight: 900;
+}
+
+.favourite-section h5,p{
+    font-weight: 500;
+    
+}
+.favourite-section p{
+    color: #7F7F7F;
+}
+
+.young-favourite-img{
+    width: 100%;
+    height: 220px;
+    object-fit: fill;    
+}
+
+.favourite-section{
+    font-family: 'Poppins';
+}
+
+.favourite-section h1{
+    font-weight: 900;
+}
+
+/* FAVOURITES-SECTION END */
+
+
+
+/* DOWNLOAD START */
+
+.download-on{
+    width: 80%;
+    height: 40px;
+    margin-top: 20px;
+}
+
+.download-on:hover{
+    border: 3px solid red;
+}
+
+.download{
+    font-family: 'Poppins';
+}
+
+.download h1{
+    font-weight: 900;
+}
+
+.download p{
+    font-weight: 500;
+}
+
+.mobile-img{
+    width: 80%;
+    height: 540px;
+    object-fit: cover;
+}
+
+/* DOWNLOAD END */
+
+
+
+/* PROMOTION START */
+
+.promotion{
+    background-color: #E5C643;
+    height: 300px;
+    color: white;
+    font-family: 'Poppins';
+}
+
+@media (min-width: 992px) {
+  .promotion {
+    height: 260px;
+  }
+}
+
+.promotion h1{
+    font-weight: 900;
+}
+
+.input-group{
+    width: auto;
+}
+
+.promotion button{
+    background-color: black;
+    color: white;
+}
+
+.promotion button:hover{
+    background-color: rgba(0,0,0,0.9);
+    color: white;
+}
+
+/* PROMOTION END */
+
+
+
+/* FOOTER START */
+
+.footer{
+    background-color: #000000;
+}
+
+.footer ul{
+    list-style-type: none;
+    height: 200px;
+}
+
+.footer {
+    padding: 30px;
+    height: 450px;
+    font-family: 'Roboto';
+}
+
+@media (min-width: 768px) {
+  .footer{
+    height: 350px;
+  }
+}
+
+@media (min-width: 992px) {
+  .footer {
+    height: 260px;
+  }
+}
+
+.footer h1{
+    font-family: "Poppins";
+    font-weight: 900;
+    color: #FFFFFF;
+    letter-spacing: 3%;
+}
+
+.footer h5,li{
+    color: #8E8E8E;
+}
+
+#li1{
+    color: #D9D9D9;
+}
+
+.icon{
+    background-color: #EBD96B;
+    height: 23px;
+    width: 23px;
+    border-radius: 5px;
+}
+
+.icon:hover{
+    background-color: rgb(0, 255, 221);
+}
+
+/* FOOTER END */
+
+
+
+/* CARDS IN NEW-ARRIVALS & FAVOURITE-SECTION */
+
+.card-body:has(.fa-arrow-right:hover) p {
+    color: black !important;
+}
+
+.card{
+    border-radius: 10px !important;
+    overflow: hidden;
+}
+
+
+
