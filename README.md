@@ -1,2 +1,2 @@
 # Prodcon-
-A responsive website created using HTML, CSS &amp; BOOTSTRAP 
+An interactive & responsive website created using HTML, CSS &amp; BOOTSTRAP 
